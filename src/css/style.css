@@ -1,15 +1,52 @@
+html {
+    font-size: 62.5%;
+}
+
 body {
     font-family: 'Public Sans', sans-serif;
+    font-weight: 400px;
 }
 
 .cabecalho {
-
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 45px;
 }
 
-.cabecalho .menu {
-
+.cabecalho .logo {
+    background-color: white;
+    display: flex;
+    align-items: center;
 }
 
-.cabecalho .menu .lista-menu {
-  
+.cabecalho .logo h1 {
+    /* font-size: 2rem; */
+    font-size: 20px;
+    margin-left: 6px;
+}
+
+.cabecalho .lista-menu {
+    display: flex;
+    align-items: center;
+}
+
+.cabecalho .lista-menu li a {
+    padding: 10px 5px;
+    transition: 0.3s ease-in-out; 
+    font-size: 15px;
+    padding: 10px 20px;
+}
+
+.cabecalho .lista-menu li a:hover {
+    background-color: #5BC241;
+    color: #ffffff;
+}
+
+.cabecalho .lista-menu li a.btn {
+    background-color: #5BC241;
+    color: #ffffff;
+    border-radius: 10px;
+    margin-left: 30px;
+    padding: 10px 20px;
 }
